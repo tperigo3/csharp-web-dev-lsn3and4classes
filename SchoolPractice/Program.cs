@@ -1,12 +1,14 @@
-﻿using System;
-
-namespace SchoolPractice
+﻿namespace SchoolPractice
 {
     class Program
     {
         public static void Main(string[] args)
         {
-            // TODO: Instantiate your objects and test your exercise solutions with print statements here.
+            Student Terri = new Student(1, 4.0)
+            {
+                Name = "Terri"
+            };
+            
         }
     }
 }
